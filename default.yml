@@ -19,9 +19,12 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: Very Big Importnat Company
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
     enable_host_users: true
     enable_software_inventory: true
+  webhook_settings:
+    enabled_activies_webhook: true
+    destination_url: https://webhook.site/c2eb26e7-7663-4560-bb14-2df4b79b67d1 
